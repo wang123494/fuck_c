@@ -130,11 +130,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="demo.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="getBM.cpp" />
     <ClCompile Include="mysqlConnect.cpp" />
+    <ClCompile Include="select.cpp" />
+    <ClCompile Include="signIn.cpp" />
+    <ClCompile Include="studentConnect.cpp" />
+    <ClCompile Include="teacherConnect.cpp" />
+    <ClCompile Include="update.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="head.h" />
+    <ClInclude Include="select.h" />
+    <ClInclude Include="signIn.h" />
+    <ClInclude Include="update.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

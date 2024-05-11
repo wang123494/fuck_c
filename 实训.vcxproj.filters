@@ -13,18 +13,63 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\搜索">
+      <UniqueIdentifier>{37d7ed17-dec0-415f-b99b-b350eba42d57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\增加">
+      <UniqueIdentifier>{ea9705ae-f0e7-449b-bedd-3a47cd053395}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\删除">
+      <UniqueIdentifier>{879b0727-7d2d-41e0-a102-ecd707b1298d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\更改">
+      <UniqueIdentifier>{bfff58d2-5522-443c-8a53-e07e333df62e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据库连接">
+      <UniqueIdentifier>{d8963760-736d-4c00-9c74-94ac98907018}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\登录">
+      <UniqueIdentifier>{fa027185-6f69-4abb-aab6-9557739e0d36}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="demo.cpp">
+    <ClCompile Include="Main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="signIn.cpp">
+      <Filter>源文件\登录</Filter>
+    </ClCompile>
     <ClCompile Include="mysqlConnect.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\数据库连接</Filter>
+    </ClCompile>
+    <ClCompile Include="getBM.cpp">
+      <Filter>源文件\增加</Filter>
+    </ClCompile>
+    <ClCompile Include="select.cpp">
+      <Filter>源文件\搜索</Filter>
+    </ClCompile>
+    <ClCompile Include="teacherConnect.cpp">
+      <Filter>源文件\登录</Filter>
+    </ClCompile>
+    <ClCompile Include="update.cpp">
+      <Filter>源文件\更改</Filter>
+    </ClCompile>
+    <ClCompile Include="studentConnect.cpp">
+      <Filter>源文件\登录</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="head.h">
-      <Filter>源文件</Filter>
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="select.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="signIn.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="update.h">
+      <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
