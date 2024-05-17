@@ -130,17 +130,33 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="add.cpp" />
+    <ClCompile Include="basicMenu.cpp" />
+    <ClCompile Include="changeString.cpp" />
+    <ClCompile Include="choiceForSubject.cpp" />
+    <ClCompile Include="delete.cpp" />
+    <ClCompile Include="get.cpp" />
+    <ClCompile Include="judge.cpp" />
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="getBM.cpp" />
+    <ClCompile Include="mysqlConfige.h" />
     <ClCompile Include="mysqlConnect.cpp" />
+    <ClCompile Include="ranking.cpp" />
     <ClCompile Include="select.cpp" />
+    <ClCompile Include="show.cpp" />
     <ClCompile Include="signIn.cpp" />
+    <ClCompile Include="studentChoice.cpp" />
     <ClCompile Include="studentConnect.cpp" />
+    <ClCompile Include="teacherChoice.cpp" />
     <ClCompile Include="teacherConnect.cpp" />
     <ClCompile Include="update.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="add.h" />
+    <ClInclude Include="CRUD.h" />
+    <ClInclude Include="delete.h" />
     <ClInclude Include="head.h" />
+    <ClInclude Include="judge.h" />
+    <ClInclude Include="menu.h" />
     <ClInclude Include="select.h" />
     <ClInclude Include="signIn.h" />
     <ClInclude Include="update.h" />

@@ -1,9 +1,6 @@
-#include <stdio.h>
-#include <Windows.h>
-#include "head.h"
 #include "select.h"
-
-
+#include "windows.h"
+#include <stdio.h>
 void select() {
 	system("color f0");
 	printf("\t\t\t你想选择查询什么内容?\n");

@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "signIn.h"
-#include "head.h"
+#include "mysqlConfige.h"
 bool teacherConnect(const char* Account ,const char* passport) {
 	MYSQL* connect = mysqlConnect();
 	char mysql[256] = { 0 };

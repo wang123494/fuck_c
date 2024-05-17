@@ -13,63 +13,123 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="源文件\搜索">
-      <UniqueIdentifier>{37d7ed17-dec0-415f-b99b-b350eba42d57}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\增加">
-      <UniqueIdentifier>{ea9705ae-f0e7-449b-bedd-3a47cd053395}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\删除">
-      <UniqueIdentifier>{879b0727-7d2d-41e0-a102-ecd707b1298d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\更改">
-      <UniqueIdentifier>{bfff58d2-5522-443c-8a53-e07e333df62e}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\数据库连接">
       <UniqueIdentifier>{d8963760-736d-4c00-9c74-94ac98907018}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\登录">
       <UniqueIdentifier>{fa027185-6f69-4abb-aab6-9557739e0d36}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\界面">
+      <UniqueIdentifier>{40d21b19-c24b-4d26-bc1e-0c99ab046039}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\增删改查">
+      <UniqueIdentifier>{a8fb8648-6fbf-4b79-9d8a-49a97e649453}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\增删改查\增加">
+      <UniqueIdentifier>{ea9705ae-f0e7-449b-bedd-3a47cd053395}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\增删改查\更改">
+      <UniqueIdentifier>{bfff58d2-5522-443c-8a53-e07e333df62e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\增删改查\删除">
+      <UniqueIdentifier>{879b0727-7d2d-41e0-a102-ecd707b1298d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\增删改查\搜索">
+      <UniqueIdentifier>{37d7ed17-dec0-415f-b99b-b350eba42d57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\增删改查">
+      <UniqueIdentifier>{ac746e7f-5a28-478b-b6ea-103d96a635fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\判断">
+      <UniqueIdentifier>{fb2c7056-96bc-4fc4-9321-dd11b665ebf1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="signIn.cpp">
       <Filter>源文件\登录</Filter>
     </ClCompile>
     <ClCompile Include="mysqlConnect.cpp">
       <Filter>源文件\数据库连接</Filter>
     </ClCompile>
-    <ClCompile Include="getBM.cpp">
-      <Filter>源文件\增加</Filter>
-    </ClCompile>
     <ClCompile Include="select.cpp">
-      <Filter>源文件\搜索</Filter>
+      <Filter>源文件\增删改查\搜索</Filter>
+    </ClCompile>
+    <ClCompile Include="update.cpp">
+      <Filter>源文件\增删改查\更改</Filter>
+    </ClCompile>
+    <ClCompile Include="studentConnect.cpp">
+      <Filter>源文件\登录</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="basicMenu.cpp">
+      <Filter>源文件\界面</Filter>
+    </ClCompile>
+    <ClCompile Include="studentChoice.cpp">
+      <Filter>源文件\登录</Filter>
+    </ClCompile>
+    <ClCompile Include="teacherChoice.cpp">
+      <Filter>源文件\登录</Filter>
     </ClCompile>
     <ClCompile Include="teacherConnect.cpp">
       <Filter>源文件\登录</Filter>
     </ClCompile>
-    <ClCompile Include="update.cpp">
-      <Filter>源文件\更改</Filter>
+    <ClCompile Include="mysqlConfige.h">
+      <Filter>头文件</Filter>
     </ClCompile>
-    <ClCompile Include="studentConnect.cpp">
-      <Filter>源文件\登录</Filter>
+    <ClCompile Include="add.cpp">
+      <Filter>源文件\增删改查\增加</Filter>
+    </ClCompile>
+    <ClCompile Include="show.cpp">
+      <Filter>源文件\增删改查\搜索</Filter>
+    </ClCompile>
+    <ClCompile Include="changeString.cpp">
+      <Filter>源文件\增删改查\更改</Filter>
+    </ClCompile>
+    <ClCompile Include="judge.cpp">
+      <Filter>源文件\判断</Filter>
+    </ClCompile>
+    <ClCompile Include="get.cpp">
+      <Filter>源文件\增删改查\搜索</Filter>
+    </ClCompile>
+    <ClCompile Include="delete.cpp">
+      <Filter>源文件\增删改查\删除</Filter>
+    </ClCompile>
+    <ClCompile Include="ranking.cpp">
+      <Filter>源文件\增删改查\搜索</Filter>
+    </ClCompile>
+    <ClCompile Include="choiceForSubject.cpp">
+      <Filter>源文件\界面</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="head.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="select.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="signIn.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="update.h">
+    <ClInclude Include="menu.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CRUD.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="add.h">
+      <Filter>头文件\增删改查</Filter>
+    </ClInclude>
+    <ClInclude Include="delete.h">
+      <Filter>头文件\增删改查</Filter>
+    </ClInclude>
+    <ClInclude Include="judge.h">
+      <Filter>头文件\增删改查</Filter>
+    </ClInclude>
+    <ClInclude Include="update.h">
+      <Filter>头文件\增删改查</Filter>
+    </ClInclude>
+    <ClInclude Include="select.h">
+      <Filter>头文件\增删改查</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

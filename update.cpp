@@ -1,9 +1,9 @@
+//包含print文件
+//windows文件
+#include <Windows.h>
 #include <stdio.h>
-#include <string.h>
-#include "head.h"
 #include "update.h"
-void signIn();
-bool teacherConnect(const char* account, const char* passport);
+#include "judge.h"
 void update() {
 	system("color f0");
 	printf("\t\t\t你想选择更改什么内容?\n");
