@@ -51,9 +51,6 @@
     <ClCompile Include="mysqlConnect.cpp">
       <Filter>源文件\数据库连接</Filter>
     </ClCompile>
-    <ClCompile Include="select.cpp">
-      <Filter>源文件\增删改查\搜索</Filter>
-    </ClCompile>
     <ClCompile Include="update.cpp">
       <Filter>源文件\增删改查\更改</Filter>
     </ClCompile>
@@ -65,12 +62,6 @@
     </ClCompile>
     <ClCompile Include="basicMenu.cpp">
       <Filter>源文件\界面</Filter>
-    </ClCompile>
-    <ClCompile Include="studentChoice.cpp">
-      <Filter>源文件\登录</Filter>
-    </ClCompile>
-    <ClCompile Include="teacherChoice.cpp">
-      <Filter>源文件\登录</Filter>
     </ClCompile>
     <ClCompile Include="teacherConnect.cpp">
       <Filter>源文件\登录</Filter>
@@ -102,6 +93,27 @@
     <ClCompile Include="choiceForSubject.cpp">
       <Filter>源文件\界面</Filter>
     </ClCompile>
+    <ClCompile Include="IsFailed.cpp">
+      <Filter>源文件\判断</Filter>
+    </ClCompile>
+    <ClCompile Include="selectMax.cpp">
+      <Filter>源文件\增删改查\搜索</Filter>
+    </ClCompile>
+    <ClCompile Include="selectMin.cpp">
+      <Filter>源文件\增删改查\搜索</Filter>
+    </ClCompile>
+    <ClCompile Include="selectAver.cpp">
+      <Filter>源文件\增删改查\搜索</Filter>
+    </ClCompile>
+    <ClCompile Include="studentChoice.cpp">
+      <Filter>源文件\界面</Filter>
+    </ClCompile>
+    <ClCompile Include="teacherChoice.cpp">
+      <Filter>源文件\界面</Filter>
+    </ClCompile>
+    <ClCompile Include="select.cpp">
+      <Filter>源文件\界面</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="head.h">
@@ -111,9 +123,6 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="menu.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="CRUD.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="add.h">
@@ -129,6 +138,9 @@
       <Filter>头文件\增删改查</Filter>
     </ClInclude>
     <ClInclude Include="select.h">
+      <Filter>头文件\增删改查</Filter>
+    </ClInclude>
+    <ClInclude Include="CRUD.h">
       <Filter>头文件\增删改查</Filter>
     </ClInclude>
   </ItemGroup>

@@ -9,7 +9,7 @@ int signIn() {
 	printf("1:教师端登录\n");
 	printf("2:学生端登录\n");
 	scanf_s("%d", &chose);
-
+	system("cls");
 	if (chose == 1) {
 		printf("请输入你的账户(学号):");
 		char account[20];

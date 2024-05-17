@@ -136,12 +136,16 @@
     <ClCompile Include="choiceForSubject.cpp" />
     <ClCompile Include="delete.cpp" />
     <ClCompile Include="get.cpp" />
+    <ClCompile Include="IsFailed.cpp" />
     <ClCompile Include="judge.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="mysqlConfige.h" />
     <ClCompile Include="mysqlConnect.cpp" />
     <ClCompile Include="ranking.cpp" />
     <ClCompile Include="select.cpp" />
+    <ClCompile Include="selectAver.cpp" />
+    <ClCompile Include="selectMax.cpp" />
+    <ClCompile Include="selectMin.cpp" />
     <ClCompile Include="show.cpp" />
     <ClCompile Include="signIn.cpp" />
     <ClCompile Include="studentChoice.cpp" />

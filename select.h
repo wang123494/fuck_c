@@ -26,3 +26,6 @@ char* getName(const char* id);
 void sortBy(const char* subject); 
 
 void ranking(const char* name, const char* subject);
+void selectMax();
+void selectMin();
+void selectAver();
